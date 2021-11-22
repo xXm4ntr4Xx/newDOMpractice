@@ -1,19 +1,19 @@
 let pennies = 1;
 const output = document.querySelector("output");
+//task 1
 //set the onclick fucntion
 function handleClick() {
-  console.log("Im just to prove it's working!");
    pennies *= 2;
   // Double the number of pennies
   output.innerText = `${pennies} Penny`;
   // display in the output tag
   return pennies;
 }
-
+//task 2
 // select and change the text
 let quoteElement = document.querySelector(".quote");
 quoteElement.innerText ="Welcome to the jungle";
-
+//task 3
 //select the h1 and change the style decoration
 let headerOne = document.querySelector("h1");
 headerOne.style.textDecoration = "underline";
@@ -68,5 +68,5 @@ for(i=0;i<extraTips.length; i++) {
   
 //function that point the h1 and change the text value based on the inputFile 
   function clickButton(){
-    heading1.innerText = inputFile.value;
-  }
+     heading1.innerText = inputFile.value;
+    }
