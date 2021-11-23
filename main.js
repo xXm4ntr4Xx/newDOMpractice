@@ -69,4 +69,5 @@ for(i=0;i<extraTips.length; i++) {
 //function that point the h1 and change the text value based on the inputFile 
   function clickButton(){
      heading1.innerText = inputFile.value;
+     inputFile.value="";
     }
