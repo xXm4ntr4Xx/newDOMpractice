@@ -43,7 +43,7 @@ for(i=0;i<extraTips.length; i++) {
  
   }
   
-// task-6 call the function adn add the onclick event on button with the designated id
+// task-6 call the function and add the onclick event on button with the designated id
   let button = document.querySelector("#click-me");
   button.addEventListener("click", newValue);
 // task-7 
